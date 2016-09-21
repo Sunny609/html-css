@@ -1,0 +1,54 @@
+*{
+	margin:0px;
+}
+/*-------------ÄÚ±ß¿ò-----------*/
+.box1{
+    margin:0px auto;
+	background:#eee;
+	padding:20px;
+	border:1px solid #999;
+	margin:20px;
+	overflow:auto;
+	min-width:600px;
+
+}
+.leftbox{
+	float:left;
+	padding:20px;
+	background:#fff;
+	border:1px solid #999;
+    width:180px;
+}
+.logobox{
+	float:left;
+	width:80px;
+	height:80px;
+	background-image:url('images/logo.jpg');
+}
+.teamname{
+	float:left;
+	left:110px;
+	height:80px;
+	width:80px;
+}
+/*--------------ÖÐ¼ä-------------*/
+.contentbox{
+	background:#fff;
+	border:1px solid #999;
+	padding:20px;
+	margin-left:240px;
+	margin-right:180px;
+}
+/*---------ÓÒ±ß----------------*/
+.rightbox{
+	float:right;
+	width:110px;
+	background:#fff;
+	border:1px solid #999;
+	padding:20px;
+}  
+.rightbox img{
+	border:1px solid #999;
+	margin:10px;
+	
+}
