@@ -1,0 +1,64 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+
+/*方法一：高度固定----
+.outbox{
+	position:absolute;
+	background:#ccc;
+	width:400px;
+	height:200px;
+	left:50%;
+	top:50%;
+	margin-left:-200px;
+	margin-top:-100px;
+}
+*/
+/*方法二：高度不固定---------
+.outbox{
+	position:absolute;
+	background:#ccc;
+	width:400px;
+	height:30%;
+	margin:auto;
+	overflow:auto;
+	left:0;right:0;top:0;bottom:0;
+}
+*/
+/*方法三：css3写法----*/
+.outbox{
+	position:absolute;
+	background:#ccc;
+	width:400px;
+	left:50%;
+	top:50%;
+	transform:translate(-50%,-50%);
+	margin:0 auto;
+    overflow:hidden;	
+}
+
+.leftbox{
+	position:absolute;
+	background-color:#fc0;
+	width:100px;
+	height:100px;
+	left:-50px;
+	top:-50px;
+	border-radius:50%;
+}
+.rightbox{
+	position:absolute;
+	background-color:#fc0;
+	width:100px;
+	height:100px;
+	right:-50px;
+	bottom:-50px;
+	border-radius:50%;
+}
+/*这个主要撑起外框的作用，无意义*/
+.content{
+	width:300px;
+	height:200px;
+	
+}
