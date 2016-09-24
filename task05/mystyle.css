@@ -1,0 +1,146 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+body{
+	background: #ccc;font-family: "微软雅黑";
+	min-width: 750px;
+	}
+/*----------------头部----------------*/
+.header{
+	background-color:#444;
+	display: table;
+	height:60px;
+	width:100%;
+}
+.piture{
+	margin-top:8px;
+	margin-left:45px;
+}
+.ullist{
+	margin:15px;
+	float:right;
+}
+.alist{
+	color:white;
+	font-size:10px;
+	text-decoration:none;
+}
+.ullist li{
+	float:left;
+	text-decoration:none;
+	margin-left:25px;
+	margin-right:10px;
+}
+/*----------------第一栏--------------*/
+.article1{
+	margin-top:25px;
+	margin-left:30px;
+	margin-right:450px;
+	background:#fff;
+	padding:20px;
+}
+.content1{
+	font-size:15px;
+}
+.ullist2{
+	list-style-type:none;
+	margin-left:20px;
+}
+/*-------------------图片----------------*/
+.ullist3{
+	 list-style-type:none;
+}
+.ullist3 p{
+	 text-align:center;
+	 margin-top:15px;
+}
+.header1{
+	margin-top:15px;
+}
+.ollist{
+	margin-left:50px;
+	line-height:30px;
+}
+.pstyle{
+	line-height:25px;
+	text-indent:2em;
+	
+}
+.imgbox{
+	border:1px solid #ccc;
+	width:300px;
+	height:230px;
+	margin:15px;
+	display: inline-block;
+}
+.imgstyle{
+	margin:20px;
+}
+.tbstyle{
+	border:1px solid #ccc;
+	border-spacing:0px;
+	width:96%;
+}
+.thstyle{
+	background-color:black;
+	color:#fff;
+	text-align:left;
+	padding:0px;
+}
+.trstyle{
+	background:#ccc;
+}
+/**-----------------------侧边栏--------------**/
+.article4{
+	margin-top:25px;
+	margin-right:20px;
+	background:#fff;
+	padding:20px;
+    width: 350px;
+	float:right;
+}
+.asstyle{
+	font-size:15px;
+}	
+.tip1{
+	margin-left:0px;
+}
+.tip2{
+	margin-left:140px;
+	font-size:12px;
+	color:#999;
+}
+.tip3{
+	margin-left:40px;
+}
+.tip5{
+	margin-left:90px;
+}
+.tip6{
+	display: block;
+	margin: 20px;
+	width: 100%;
+}
+.tip6 p{ 
+        float:left;
+		margin-left:40px;
+}
+.btn{
+	width:350px;
+	height:50px;
+	background: #0066CC;
+	border-radius: 10px;
+}
+/*---------------底边栏----------------------*/
+.footstyle{
+	color:#fff;
+	background-color:#000;
+}
+.footstyle p{
+	color:#fff;
+	height:50px;
+	text-align:center;
+	font-size:15px;
+	padding-top:18px;
+}
